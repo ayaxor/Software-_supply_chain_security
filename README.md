@@ -1,81 +1,78 @@
 
 
 <p align="center">
-  <img src="https://raw.githubusercontent.com/ayaxor/Software-_supply_chain_security/main/file_00000000473471f5a72bef07c06e5754.png" width="750">
+  <img src="https://github.com/ayaxor/Software-_supply_chain_security/blob/main/file_00000000473471f5a72bef07c06e5754.png" width="750">
 </p>
 
 <h1 align="center">🔐 Software Supply Chain Security</h1>
-<h3 align="center">QuietWire AI Training Program — Phase 2</h3>
-<h4 align="center">By Eng. Aya Jamal</h4>
+<p align="center"><b>QuietWire AI Training Program — Phase 2</b></p>
+<p align="center">Prepared by <b>Eng. Aya Jamal</b></p>
+<p align="center">Supervised by <b>Eng. Ashraf Al-Haj</b> & <b>Chris Blask</b></p>
 
 ---
 
-## 📘 About This Project
+# 📘 Overview
 
-This repository was created as part of the **QuietWire AI Training Program – Phase 2**.
+This repository is part of **Phase 2** of the QuietWire AI Training Program.
 
-The purpose of this project is to introduce the concept of **Software Supply Chain Security** in a clear, simple, and bilingual format (English + Arabic) suitable for non-technical learners.
+The goal of this phase is to develop clear, structured, and bilingual (English + Arabic) technical documentation targeted at **non-technical adult learners**.
 
-This README explains the project structure and the tasks assigned to the trainee.
+The first assigned mission in this phase is:
 
----
-
-## 🎯 Project Objectives
-
-- Write a clean, bilingual technical explanation.  
-- Simplify the concept for non-technical readers.  
-- Organize documentation professionally.  
-- Demonstrate understanding of software supply chain security.  
-- Follow QuietWire documentation standards.  
+### **Mission 1 — Technical README (Bilingual)**
+**Topic:** *“What is Software Supply Chain Security?”*  
+**Deliverables:**
+- A clean, structured README in **English**
+- A clear, simplified version in **Arabic**
+- Both delivered inside this repository
 
 ---
 
-## 📂 Repository Structure
+# 🗂 Project Structure
 
 ```
-Software Supply Chain Security
-│
-├── English/
-│   └── What_is_Software_Supply_Chain_Security.md
-│
-├── Arabic/
-│   └── ما_هو_أمن_سلسلة_توريد_البرمجيات.md
-│
-└── README.md
+📁 English/
+    └── software_supply_chain_security_EN.md
+
+📁 Arabic/
+    └── software_supply_chain_security_AR.md
+
+📄 README.md  ← (You are here)
 ```
 
 ---
 
-## 📄 Deliverables
+# 🧩 Purpose of This Repository
 
-### **1️⃣ English Document**
-Location:  
-📁 `English/What_is_Software_Supply_Chain_Security.md`
-
-Includes:  
-- Meaning of software supply chain security  
-- Why it matters  
-- Real examples (SolarWinds, Log4j…)  
-- Security controls  
-- Simple explanations for non-technical users  
+- Provide a bilingual explanation of **Software Supply Chain Security**
+- Present the concept in a simple way for non-technical audiences  
+- Demonstrate documentation skills as part of QuietWire AI training  
+- Apply real cybersecurity concepts using clear, structured writing  
 
 ---
 
-### **2️⃣ Arabic Document**
-Location:  
-📁 `Arabic/ما_هو_أمن_سلسلة_توريد_البرمجيات.md`
+# 🚀 Phase 2 Goals
 
-يتضمن:  
-- تعريف أمن سلسلة توريد البرمجيات  
-- لماذا هو مهم  
-- أمثلة واقعية  
-- أساسيات الحماية  
-- شرح مبسط للمتعلم غير التقني  
+- Stronger documentation and communication skills  
+- Understanding real-world cyber threats  
+- Practicing structured writing in two languages  
+- Preparing for hands-on QuietWire internal mini-projects  
 
 ---
 
-## 👩‍💻 Author
-**Eng. Aya Jamal**  
-QuietWire AI Training Program  
-Phase 2 — Technical Documentation
+# 🏆 Credits
 
+**Author:** Eng. Aya Jamal  
+**Supervisors:**  
+- Eng. Ashraf Al-Haj  
+- Chris Blask  
+**Program:** QuietWire AI Training Program – Phase 2  
+**AI Teammate:** Aletheia 🤖✨
+
+---
+
+# 🌐 QuietWire Official Website  
+https://www.quietwire.ai/
+
+
+---
