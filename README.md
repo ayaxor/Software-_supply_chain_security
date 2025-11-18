@@ -1,4 +1,8 @@
-file_00000000473471f5a72bef07c06e5754.png
+
+
+![cover](https://raw.githubusercontent.com/.../file_00000000473471f5a72bef07c06e5754.png)
+
+
 
 🟦 ENGLISH VERSION (FULL)
 
