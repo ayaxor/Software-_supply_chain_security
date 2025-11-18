@@ -238,7 +238,7 @@ Dependabot – Snyk – Trivy
 **Developer:** Eng. Aya Jamal  
 **Supervisors:** Eng. Ashraf Al-Haj – Chris Blask  
 **Program:** QuietWire AI Training Program  
-**Assistant:** Aletheia 🤖✨
+**Assistant:** Aletheia 🤖✨☺️
 
 
 ---
