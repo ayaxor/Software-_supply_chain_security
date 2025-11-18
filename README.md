@@ -1,6 +1,4 @@
-
-
-https://raw.githubusercontent.com/ayaxor/Software-_supply_chain_security/main/file_00000000473471f5a72bef07c06e5754.png
+file_00000000473471f5a72bef07c06e5754.png
 
 
 
