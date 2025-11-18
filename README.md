@@ -1,336 +1,244 @@
-file_00000000473471f5a72bef07c06e5754.png
 
 
+<p align="center">
+  <img src="https://raw.githubusercontent.com/ayaxor/Software-_supply_chain_security/main/file_00000000473471f5a72bef07c06e5754.png" width="750">
+</p>
 
-🔐 Software Supply Chain Security
+<h1 align="center">🔐 Software Supply Chain Security  
+QuietWire AI Training Program – Phase 2</h1>
 
-Technical README — Phase 2 (Task #1)
-
-By Eng. Aya Jamal — QuietWire AI Training Program
-
-
----
-
-🇬🇧 ENGLISH VERSION
-
-⭐ 1. Introduction
-
-Software supply chain security is the practice of protecting every stage in the life of a software product—from writing the source code, to building and packaging it, to delivering it to users.
-The goal is simple:
-
-➡ Ensure the software is safe, trusted, and free from tampering.
-
+<p align="center">
+Developed by <b>Eng. Aya Jamal</b>  
+Under the supervision of <b>Eng. Ashraf Al-Haj</b> and <b>Chris Blask</b>  
+QuietWire AI Training Program
+</p>
 
 ---
 
-⭐ 2. What Is Software Supply Chain Security?
+# 🌍 1. Overview (English)
 
-The software supply chain includes:
+Software Supply Chain Security is the practice of protecting every component, process, and dependency involved in building, packaging, and delivering software.  
 
-Developers
+Modern software systems rely heavily on:
+- Open-source libraries  
+- Third-party APIs  
+- CI/CD pipelines  
+- Cloud infrastructure  
+- Automated build tools  
 
-Build systems (CI/CD)
-
-Open-source libraries
-
-Third-party services
-
-Cloud platforms
-
-Package managers
-
-Deployment systems
-
-
-Securing the supply chain means protecting all these components from attacks such as:
-
-Dependency hijacking
-
-Malicious package injection
-
-Credential theft
-
-Tampered builds
-
-Corrupted updates
-
-
+This creates a **large attack surface**, meaning that an attacker doesn’t need to hack your system directly—  
+they can simply compromise a dependency you trust.
 
 ---
 
-⭐ 3. Why It Matters
+# 💣 2. Why Supply Chain Attacks Are Dangerous
 
-Modern software depends on thousands of external components.
-If even one dependency is compromised, the entire system becomes vulnerable.
+Supply chain attacks are considered **one of the most powerful cyberattacks** because:
 
-Real-world incidents:
+### ✔️ They spread through trusted channels  
+A simple malicious update can infect thousands of organizations.
 
-SolarWinds
+### ✔️ They are extremely hard to detect  
+Hackers hide inside legitimate processes.
 
-Log4j
+### ✔️ They scale massively  
+One compromised package = global impact.
 
-Codecov breach
+### ✔️ Real incidents shook the world:
+- **SolarWinds** (affected U.S. government + 18,000 organizations)  
+- **Log4j** (affected millions of systems)  
+- **Codecov Bash Uploader breach**  
+- **NPM “event-stream” backdoor attack**  
 
-Malicious NPM packages
-
-
-These attacks succeeded because attackers targeted the supply chain, not the final software.
-
-
----
-
-⭐ 4. Key Risks
-
-Tampered source code
-
-Compromised CI/CD pipelines
-
-Stolen developer accounts
-
-Malicious open-source libraries
-
-Fake or modified updates
-
-Lack of visibility into dependencies
-
-
+These incidents changed cybersecurity forever.
 
 ---
 
-⭐ 5. How to Secure the Supply Chain
+# 🏗️ 3. Anatomy of the Software Supply Chain
 
-🔐 Core Security Practices
+A typical software supply chain includes:
 
-Zero-Trust development model
+### 🔧 **1. Code Development**
+- Developers  
+- IDEs  
+- Source code  
+- Version control (GitHub, GitLab)
 
-Code signing & artifact signing
+### 📦 **2. Dependencies**
+- NPM packages  
+- PyPI libraries  
+- Docker containers  
+- OS packages (Debian, RPM)
 
-Secure CI/CD pipelines
+### 🏭 **3. Build Systems**
+- Compilers  
+- Build servers  
+- Automated scripts
 
-Automated dependency scanning
+### 🚀 **4. CI/CD Pipelines**
+- GitHub Actions  
+- Jenkins  
+- GitLab CI
 
-Using SBOM (Software Bill of Materials)
+### ☁️ **5. Deployment**
+- Cloud services  
+- Kubernetes  
+- On-prem servers
 
-Access control & least privilege
-
-Continuous monitoring and auditing
-
-
-
----
-
-⭐ 6. Who Needs This?
-
-Developers
-
-Cybersecurity engineers
-
-DevOps/SRE teams
-
-Software companies
-
-Governments & critical infrastructure sectors
-
-
+Each point is a potential attack vector.
 
 ---
 
-⭐ 7. Summary
+# ⚠️ 4. Key Risks in the Software Supply Chain
 
-Software supply chain security is now one of the most important pillars of modern cybersecurity.
-Protecting the chain means protecting:
+### 🧨 1. Malicious Dependencies  
+Attackers upload trusted-looking but infected packages.
 
-The code
+### 🎭 2. Dependency Confusion  
+Hackers upload packages with the same name to public registries.
 
-The tools
+### 🐍 3. Typosquatting  
+Example:  
+Instead of `requests` → user installs `reqeusts`
 
-The dependencies
+### 🛠️ 4. Compromised Build Servers  
+If the build system is infected, every release becomes infected.
 
-The distribution systems
+### 🔑 5. Stolen Developer Credentials  
+Hackers publish malicious code through a trusted developer account.
 
-
-This README provides a clear, structured explanation as required for QuietWire AI — Phase 2, Task #1.
-
-
----
-
-🌐 QuietWire Official Website
-
-https://quietwire.ai
-
+### 🔃 6. Tampered Updates  
+Attackers modify packages downloaded during updates.
 
 ---
 
-✍️ Author
+# 🛡️ 5. Core Security Controls
 
-Eng. Aya Jamal
-Under the supervision of:
-Engineer Ashraf Al-Haj
-Chris Blask
+### 🧱 Zero-Trust Development  
+Never trust any component by default.
 
+### 📝 SBOM — Software Bill of Materials  
+A full list of all dependencies in your software.
 
----
+### 🔍 Continuous Dependency Scanning  
+Tools like:
+- Snyk  
+- Dependabot  
+- Trivy  
 
+### 🔑 Code Signing  
+Ensures the code hasn't been altered.
 
----
+### 🧪 Secure CI/CD Pipelines  
+- Secrets protection  
+- Build isolation  
+- Immutable runners  
 
-🇸🇦 ARABIC VERSION
-
-
-
-🔐 ما هو أمن سلسلة توريد البرمجيات؟
-
-ملف README التقني — المرحلة 2 (المهمة رقم 1)
-
-م. آية جمال — برنامج QuietWire AI
-
-
----
-
-⭐ 1. المقدّمة
-
-أمن سلسلة توريد البرمجيات هو مجموعة من الإجراءات والتقنيات التي تهدف إلى حماية جميع مراحل تطوير البرمجيات:
-من كتابة الكود → إلى البناء والتجميع → إلى النشر والتوزيع.
-
-الهدف هو:
-
-➡ ضمان أن البرمجيات آمنة، موثوقة، ولم يتم العبث بها.
-
+### 🔐 Least Privilege Access  
+Every developer and service gets only the required permissions.
 
 ---
 
-⭐ 2. ما هي سلسلة توريد البرمجيات؟
+# 🇸🇦 **النسخة العربيـــــة (Arabic Version)**
 
-تشمل سلسلة التوريد:
+# 🌍 1. نظرة عامة
 
-المطوّرون
+أمن سلسلة توريد البرمجيات هو مجال يركّز على حماية **جميع العناصر** التي تدخل في صناعة البرمجيات، مثل:
 
-أنظمة البناء (CI/CD)
+- المكتبات الخارجية  
+- التبعيات  
+- أدوات البناء  
+- خطوط CI/CD  
+- الخدمات السحابية  
 
-المكتبات مفتوحة المصدر
-
-الخدمات السحابية
-
-مدراء الحزم
-
-بيئات التشغيل والنشر
-
-
-وأمن سلسلة التوريد يشمل حماية هذه المكونات من:
-
-التلاعب بالكود
-
-إدخال حزم خبيثة
-
-سرقة بيانات المطورين
-
-تحديثات خبيثة
-
-اختراق خطوط البناء
-
-
+أي اختراق لأي جزء منها قد يؤدي إلى **كارثة أمنية**.
 
 ---
 
-⭐ 3. لماذا يعتبر مهمًا؟
+# 💣 2. لماذا هجمات سلسلة التوريد خطيرة؟
 
-لأن البرمجيات الحديثة تعتمد على آلاف التبعيات.
-واختراق مكوّن واحد فقط قد يؤدي لاختراق النظام بأكمله—even لو كان برنامجك نفسه آمنًا.
+### ✔️ لأنها تنتشر عبر تحديثات موثوقة  
+تصيب آلاف الأنظمة مرة واحدة.
 
-أمثلة عالمية:
+### ✔️ لأن اكتشافها صعب  
+تندمج مع العمليات الطبيعية للنظام.
 
-SolarWinds
+### ✔️ لأنها تؤثر عالميًا  
+هجوم واحد قد يضرب العالم كله.
 
-Log4j
-
-Codecov
-
-حزم NPM الخبيثة
-
-
-
----
-
-⭐ 4. أهم المخاطر
-
-كود معدّل أو خبيث
-
-اختراق أنظمة CI/CD
-
-سرقة حسابات المطورين
-
-تبعيات خبيثة
-
-تحديثات زائفة
-
-فقدان رؤية التبعيات
-
-
+### ✔️ أمثلة حقيقية:
+- هجوم **SolarWinds**  
+- ثغرة **Log4j**  
+- اختراق **Codecov**  
+- حزمة NPM مزوّرة (**event-stream**)  
 
 ---
 
-⭐ 5. كيف نحمي سلسلة التوريد؟
+# 🏗️ 3. مكوّنات سلسلة التوريد
 
-🔐 الممارسات الأساسية:
+### 1. التطوير  
+الكود – الحسابات – المستودعات – GitHub
 
-Zero-Trust
+### 2. التبعيات  
+حزم NPM – مكتبات Python – حاويات Docker…
 
-توقيع الكود والملفات
+### 3. أنظمة البناء  
+المترجمات – خوادم البناء – السكربتات
 
-حماية خطوط CI/CD
+### 4. خطوط CI/CD  
+GitHub Actions – Jenkins…
 
-فحص التبعيات
-
-استخدام SBOM
-
-مراقبة مستمرة
-
-تقليل الصلاحيات
-
-
+### 5. النشر  
+الخوادم – السحابة – Kubernetes
 
 ---
 
-⭐ 6. من المستفيد؟
+# ⚠️ 4. المخاطر الأساسية
 
-المطورون
+### 🧨 التبعيات الخبيثة  
+تحميل مكتبة مصابة دون العلم.
 
-مهندسو الأمن السيبراني
+### 🎭 هجوم “الاعتماد المربك”  
+رفع مكتبة باسم مشابه للمكتبة الحقيقية.
 
-فرق DevOps
+### 🐍 الأخطاء الإملائية  
+تثبيت مكتبة مزيفة بسبب حرف واحد.
 
-الشركات المنتجة للبرمجيات
+### 🔧 خوادم البناء المخترقة  
+كل إصدار يصبح مصابًا.
 
-البنى التحتية والحكومات
-
-
-
----
-
-⭐ 7. الخلاصة
-
-أمن سلسلة التوريد أصبح من أهم جوانب الأمن السيبراني.
-وحمايته تعني حماية البرمجيات من البداية وحتى المستخدم النهائي.
-
-مُعدّ وفق متطلبات
-QuietWire AI — Phase 2, Task #1
-
+### 🔑 سرقة حسابات المطورين  
+رفع كود خبيث من حساب موثوق.
 
 ---
 
-🌐 موقع شركة QuietWire
+# 🛡️ 5. أساليب الحماية الأساسية
 
-https://quietwire.ai
+### 🧱 مبدأ انعدام الثقة  
+عدم الثقة بأي عنصر إلا بعد التحقق منه.
 
+### 📜 إنشاء SBOM  
+قائمة تفصيلية بجميع التبعيات.
+
+### 🔍 الفحص المستمر  
+Dependabot – Snyk – Trivy
+
+### 🔐 توقيع الكود  
+لضمان عدم التلاعب به.
+
+### ⚙️ تأمين خطوط CI/CD  
+عزل – حماية الأسرار – مراقبة مستمرة.
+
+### 🚫 أقل قدر من الصلاحيات  
+منع الوصول الزائد.
 
 ---
 
-✍️ إعداد
-
-م. آية جمال
-تحت إشراف:
-المهندس أشرف الحاج
-كريس بلاسك
+# 🏆 Credits
+**Developer:** Eng. Aya Jamal  
+**Supervisors:** Eng. Ashraf Al-Haj – Chris Blask  
+**Program:** QuietWire AI Training Program  
+**Assistant:** Aletheia 🤖✨
 
 
 ---
