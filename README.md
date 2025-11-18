@@ -1,14 +1,10 @@
 
 
-![cover](https://raw.githubusercontent.com/.../file_00000000473471f5a72bef07c06e5754.png)
+https://raw.githubusercontent.com/ayaxor/Software-_supply_chain_security/main/file_00000000473471f5a72bef07c06e5754.png
 
 
 
-🟦 ENGLISH VERSION (FULL)
-
-
-
-🔐 What Is Software Supply Chain Security?
+🔐 Software Supply Chain Security
 
 Technical README — Phase 2 (Task #1)
 
@@ -17,116 +13,125 @@ By Eng. Aya Jamal — QuietWire AI Training Program
 
 ---
 
+🇬🇧 ENGLISH VERSION
+
 ⭐ 1. Introduction
 
 Software supply chain security is the practice of protecting every stage in the life of a software product—from writing the source code, to building and packaging it, to delivering it to users.
+The goal is simple:
 
-Its purpose is simple:
-
-➡️ Ensure the software is safe, trusted, and not altered by attackers.
+➡ Ensure the software is safe, trusted, and free from tampering.
 
 
 ---
 
 ⭐ 2. What Is Software Supply Chain Security?
 
-The “software supply chain” includes all the people, systems, tools, and components involved in creating and delivering software.
-
-This includes:
+The software supply chain includes:
 
 Developers
 
-Build tools (CI/CD)
+Build systems (CI/CD)
 
 Open-source libraries
 
-Cloud services
+Third-party services
+
+Cloud platforms
 
 Package managers
 
-Deployment infrastructure
+Deployment systems
 
 
-Software supply chain security protects these components from attacks such as tampering, malware injection, credential theft, and compromised dependencies.
+Securing the supply chain means protecting all these components from attacks such as:
+
+Dependency hijacking
+
+Malicious package injection
+
+Credential theft
+
+Tampered builds
+
+Corrupted updates
+
 
 
 ---
 
 ⭐ 3. Why It Matters
 
-Modern software is built from hundreds of external components.
-If just one dependency or tool is compromised, the attacker can infect the entire system.
+Modern software depends on thousands of external components.
+If even one dependency is compromised, the entire system becomes vulnerable.
 
-Famous real-world attacks include:
+Real-world incidents:
 
-SolarWinds Supply Chain Attack (2020)
+SolarWinds
 
-Log4j Vulnerability (2021)
+Log4j
 
-Codecov Bash Uploader Attack
+Codecov breach
 
-Malicious NPM Packages
+Malicious NPM packages
 
 
-These incidents affected major companies and governments worldwide—
-not because their main software was weak, but because the supply chain was attacked.
+These attacks succeeded because attackers targeted the supply chain, not the final software.
 
 
 ---
 
-⭐ 4. Key Security Risks
+⭐ 4. Key Risks
 
-Tampered or injected malicious code
+Tampered source code
 
-Compromised build servers
+Compromised CI/CD pipelines
 
-Stolen developer credentials
+Stolen developer accounts
 
-Malicious or outdated dependencies
+Malicious open-source libraries
 
-Fake or altered software updates
+Fake or modified updates
 
-Insecure CI/CD pipelines
-
-Lack of visibility into third-party components
+Lack of visibility into dependencies
 
 
 
 ---
 
-⭐ 5. How to Secure the Software Supply Chain
+⭐ 5. How to Secure the Supply Chain
 
-🔐 Essential Security Practices:
+🔐 Core Security Practices
 
-Zero-trust development
+Zero-Trust development model
 
-Signing code, commits, and artifacts
+Code signing & artifact signing
 
-Securing CI/CD systems
+Secure CI/CD pipelines
 
 Automated dependency scanning
 
-Implementing SBOM (Software Bill of Materials)
+Using SBOM (Software Bill of Materials)
 
-Continuous monitoring and alerting
+Access control & least privilege
 
-Access control and least-privilege policies
+Continuous monitoring and auditing
 
 
 
 ---
 
-⭐ 6. Who Should Care?
+⭐ 6. Who Needs This?
 
-Software developers
+Developers
 
 Cybersecurity engineers
 
-DevOps and SRE teams
+DevOps/SRE teams
 
-Organizations that create or distribute software
+Software companies
 
-Governments and critical infrastructure sectors
+Governments & critical infrastructure sectors
 
 
 
@@ -134,16 +139,24 @@ Governments and critical infrastructure sectors
 
 ⭐ 7. Summary
 
-Software Supply Chain Security is one of the most important areas in modern cybersecurity.
-Protecting the chain means ensuring the code, tools, dependencies, and distribution channels are safe from manipulation.
+Software supply chain security is now one of the most important pillars of modern cybersecurity.
+Protecting the chain means protecting:
 
-This document provides a clear, structured explanation suitable for non-technical adult learners—
-as required for QuietWire AI Training Program (Phase 2 — Task #1).
+The code
+
+The tools
+
+The dependencies
+
+The distribution systems
+
+
+This README provides a clear, structured explanation as required for QuietWire AI — Phase 2, Task #1.
 
 
 ---
 
-🌐 QuietWire AI — Official Website
+🌐 QuietWire Official Website
 
 https://quietwire.ai
 
@@ -153,8 +166,9 @@ https://quietwire.ai
 ✍️ Author
 
 Eng. Aya Jamal
-QuietWire AI — Training Program
-Supervisors: Engineer Ashraf Al-Haj & Chris Blask
+Under the supervision of:
+Engineer Ashraf Al-Haj
+Chris Blask
 
 
 ---
@@ -162,7 +176,7 @@ Supervisors: Engineer Ashraf Al-Haj & Chris Blask
 
 ---
 
-🟥 ARABIC VERSION (FULL)
+🇸🇦 ARABIC VERSION
 
 
 
@@ -170,30 +184,30 @@ Supervisors: Engineer Ashraf Al-Haj & Chris Blask
 
 ملف README التقني — المرحلة 2 (المهمة رقم 1)
 
-م. آية جمال — برنامج التدريب في QuietWire AI
+م. آية جمال — برنامج QuietWire AI
 
 
 ---
 
 ⭐ 1. المقدّمة
 
-أمن سلسلة توريد البرمجيات هو عملية حماية جميع المراحل التي يمر بها أي برنامج:
-من كتابة الكود، إلى بناء البرمجيات، إلى نشرها، وحتى وصولها للمستخدم النهائي.
+أمن سلسلة توريد البرمجيات هو مجموعة من الإجراءات والتقنيات التي تهدف إلى حماية جميع مراحل تطوير البرمجيات:
+من كتابة الكود → إلى البناء والتجميع → إلى النشر والتوزيع.
 
-الهدف الرئيسي:
+الهدف هو:
 
-➡️ التأكد من أن البرمجيات آمنة، موثوقة، ولم يتم العبث بها من قِبل مهاجمين.
+➡ ضمان أن البرمجيات آمنة، موثوقة، ولم يتم العبث بها.
 
 
 ---
 
-⭐ 2. ما المقصود بأمن سلسلة توريد البرمجيات؟
+⭐ 2. ما هي سلسلة توريد البرمجيات؟
 
-سلسلة توريد البرمجيات تشمل جميع العناصر المشاركة في إنتاج البرنامج، مثل:
+تشمل سلسلة التوريد:
 
 المطوّرون
 
-أدوات البناء (CI/CD)
+أنظمة البناء (CI/CD)
 
 المكتبات مفتوحة المصدر
 
@@ -201,89 +215,85 @@ Supervisors: Engineer Ashraf Al-Haj & Chris Blask
 
 مدراء الحزم
 
-بيئات النشر والتوزيع
+بيئات التشغيل والنشر
 
 
-و"أمن سلسلة التوريد" هو حماية هذه المكوّنات من الهجمات مثل:
+وأمن سلسلة التوريد يشمل حماية هذه المكونات من:
 
-إدخال كود خبيث
+التلاعب بالكود
 
-الاختراق
+إدخال حزم خبيثة
 
 سرقة بيانات المطورين
 
-التلاعب بالتحديثات
+تحديثات خبيثة
 
-المكتبات الخبيثة
+اختراق خطوط البناء
 
 
 
 ---
 
-⭐ 3. لماذا هو مهم؟
+⭐ 3. لماذا يعتبر مهمًا؟
 
-البرمجيات الحديثة تُبنى باستخدام مئات المكتبات والأدوات الخارجية.
-اختراق مكوّن واحد فقط قد يعرّض النظام بأكمله للخطر—even لو كان برنامجك الأساسي آمنًا.
+لأن البرمجيات الحديثة تعتمد على آلاف التبعيات.
+واختراق مكوّن واحد فقط قد يؤدي لاختراق النظام بأكمله—even لو كان برنامجك نفسه آمنًا.
 
-أمثلة لهجمات عالمية:
+أمثلة عالمية:
 
-هجمة SolarWinds
+SolarWinds
 
-ثغرة Log4j
+Log4j
 
-هجمة Codecov
+Codecov
 
 حزم NPM الخبيثة
 
 
-كل هذه الهجمات انتشرت لأن المهاجمين ضربوا سلسلة التوريد، وليس البرنامج النهائي.
-
 
 ---
 
-⭐ 4. المخاطر الأساسية
+⭐ 4. أهم المخاطر
 
-التلاعب بالكود
+كود معدّل أو خبيث
 
-اختراق سيرفرات البناء
+اختراق أنظمة CI/CD
 
 سرقة حسابات المطورين
 
-مكتبات أو تبعيات خبيثة
+تبعيات خبيثة
 
-تحديثات مزوّرة
+تحديثات زائفة
 
-خطوط CI/CD غير آمنة
-
-غياب رؤية واضحة للتبعيات الخارجية
+فقدان رؤية التبعيات
 
 
 
 ---
 
-⭐ 5. كيف نحمي سلسلة توريد البرمجيات؟
+⭐ 5. كيف نحمي سلسلة التوريد؟
 
-🔐 ممارسات الأمان الأساسية:
+🔐 الممارسات الأساسية:
 
-مبدأ انعدام الثقة Zero-Trust
+Zero-Trust
 
 توقيع الكود والملفات
 
 حماية خطوط CI/CD
 
-فحص التبعيات تلقائيًا
+فحص التبعيات
 
 استخدام SBOM
 
 مراقبة مستمرة
 
-تقييد الصلاحيات
+تقليل الصلاحيات
 
 
 
 ---
 
-⭐ 6. من يحتاج إلى هذا المجال؟
+⭐ 6. من المستفيد؟
 
 المطورون
 
@@ -291,9 +301,9 @@ Supervisors: Engineer Ashraf Al-Haj & Chris Blask
 
 فرق DevOps
 
-الشركات التي تنتج أو تبيع برامج
+الشركات المنتجة للبرمجيات
 
-الحكومات والبُنى التحتية الحساسة
+البنى التحتية والحكومات
 
 
 
@@ -301,16 +311,16 @@ Supervisors: Engineer Ashraf Al-Haj & Chris Blask
 
 ⭐ 7. الخلاصة
 
-أمن سلسلة توريد البرمجيات أصبح من أهم المجالات في الأمن السيبراني الحديث.
-حماية هذه السلسلة تعني حماية البرامج منذ لحظة كتابتها وحتى وصولها للمستخدم.
+أمن سلسلة التوريد أصبح من أهم جوانب الأمن السيبراني.
+وحمايته تعني حماية البرمجيات من البداية وحتى المستخدم النهائي.
 
-هذا المستند يقدم شرحًا مبسطًا ومنظمًا كما هو مطلوب في
-QuietWire AI Training Program — Phase 2 — Task #1
+مُعدّ وفق متطلبات
+QuietWire AI — Phase 2, Task #1
 
 
 ---
 
-🌐 الرابط الرسمي لشركة QuietWire
+🌐 موقع شركة QuietWire
 
 https://quietwire.ai
 
