@@ -1,78 +1,109 @@
 
 
 <p align="center">
-  <img src="https://github.com/ayaxor/Software-_supply_chain_security/blob/main/file_00000000473471f5a72bef07c06e5754.png" width="750">
+  <img src="file_00000000473471f5a72bef07c06e5754.png" width="780">
 </p>
 
 <h1 align="center">🔐 Software Supply Chain Security</h1>
-<p align="center"><b>QuietWire AI Training Program — Phase 2</b></p>
-<p align="center">Prepared by <b>Eng. Aya Jamal</b></p>
-<p align="center">Supervised by <b>Eng. Ashraf Al-Haj</b> & <b>Chris Blask</b></p>
+<p align="center">Part of QuietWire AI Training Program — Phase 2</p>
+
+---
+
+## 📝 Prepared By
+**Eng. Aya Jamal**
+
+## 🧭 Supervised By
+**Eng. Ashraf Al-Haj**  
+**Chris Blask**
 
 ---
 
 # 📘 Overview
-
 This repository is part of **Phase 2** of the QuietWire AI Training Program.
 
-The goal of this phase is to develop clear, structured, and bilingual (English + Arabic) technical documentation targeted at **non-technical adult learners**.
+The goal of this phase is to develop **clear, structured, and bilingual (English + Arabic)** documentation suitable for **non-technical adult learners**.
 
-The first assigned mission in this phase is:
+This mission focuses on building an accessible explanation of:
 
-### **Mission 1 — Technical README (Bilingual)**
-**Topic:** *“What is Software Supply Chain Security?”*  
-**Deliverables:**
-- A clean, structured README in **English**
-- A clear, simplified version in **Arabic**
-- Both delivered inside this repository
+### **➡️ What is Software Supply Chain Security?**
+
+Including:
+- How vulnerabilities spread through dependencies  
+- Risks from third-party code  
+- Real-world incidents (e.g., SolarWinds, xz Utils, and Hezbollah supply-chain malware pattern)  
+- Best practices and mitigation techniques  
+
+All content in this repository is provided in **two folders**:
+- 📁 **English** — Detailed technical explanation in English  
+- 📁 **Arabic** — Fully translated Arabic version  
 
 ---
 
-# 🗂 Project Structure
+# 🎯 Mission 1 — Technical README (Bilingual)
+**Topic:** *"What is Software Supply Chain Security?"*
+
+### ✔️ Deliverables:
+- `Software_supply_chain_security_EN.md`  
+- `Software_supply_chain_security_AR.md`
+
+Each document includes:
+- Definition and concept  
+- How the software supply chain works  
+- Attack vectors  
+- Real incident examples  
+- Prevention, protection, and recommended controls  
+
+This mission demonstrates the ability to:
+- Explain security topics clearly  
+- Support multilingual documentation  
+- Structure information professionally  
+
+---
+
+# 📁 Repository Structure
 
 ```
-📁 English/
-    └── software_supply_chain_security_EN.md
+📂 English
+    └── Software_supply_chain_security_EN.md
 
-📁 Arabic/
-    └── software_supply_chain_security_AR.md
+📂 Arabic
+    └── Software_supply_chain_security_AR.md
 
-📄 README.md  ← (You are here)
+📄 CODE_OF_CONDUCT.md
+📄 CODE_OF_CONDUCT_AR.md
+📄 CONTRIBUTING.md
+📄 CONTRIBUTING_AR.md
+📄 LICENSE
+📄 LICENSE_INFO_AR.md
+📄 SECURITY.md
+📄 SECURITY_AR.md
+📄 CHANGELOG.md
+📄 QSUPPORT.md
+📄 .gitignore
+📄 README.md
+📄 file_00000000473471f5a72bef07c06e5754.png
 ```
 
 ---
 
-# 🧩 Purpose of This Repository
+# 🏆 Purpose of This Repository
+This repository represents:
+- Professional communication  
+- Structured documentation  
+- Bilingual technical writing  
+- Real-world security awareness  
+- Phase 2 readiness for QuietWire internal projects  
 
-- Provide a bilingual explanation of **Software Supply Chain Security**
-- Present the concept in a simple way for non-technical audiences  
-- Demonstrate documentation skills as part of QuietWire AI training  
-- Apply real cybersecurity concepts using clear, structured writing  
-
----
-
-# 🚀 Phase 2 Goals
-
-- Stronger documentation and communication skills  
-- Understanding real-world cyber threats  
-- Practicing structured writing in two languages  
-- Preparing for hands-on QuietWire internal mini-projects  
+It reflects the high-quality standards expected from QuietWire engineers and trainees.
 
 ---
 
-# 🏆 Credits
-
+# 🙌 Credits
 **Author:** Eng. Aya Jamal  
-**Supervisors:**  
-- Eng. Ashraf Al-Haj  
-- Chris Blask  
-**Program:** QuietWire AI Training Program – Phase 2  
-**AI Teammate:** Aletheia 🤖✨
-
----
-
-# 🌐 QuietWire Official Website  
-https://www.quietwire.ai/
+**Program:** QuietWire AI Training Program  
+**Supervisors:** Eng. Ashraf Al-Haj & Chris Blask  
+**Assistant:** Aletheia 🤖✨
 
 
 ---
+
