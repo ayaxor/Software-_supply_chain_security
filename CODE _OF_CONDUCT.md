@@ -24,5 +24,7 @@ Or v QuietWire AI supervisors.
 Thank you for contributing responsibly.
 
 
+📧 Official Contact: aya@quietwire.ai
+
 ---
 
