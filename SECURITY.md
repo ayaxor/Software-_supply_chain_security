@@ -17,4 +17,6 @@ Security updates apply to the latest version only.
 Thank you for helping keep this project secure.
 
 
+📧 Official Contact: aya@quietwire.ai
+
 ---
