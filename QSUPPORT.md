@@ -12,5 +12,7 @@ For guidance, questions, or clarification:
 Support issues will be addressed through GitHub Issues.
 
 
+📧 Official Contact: aya@quietwire.ai
+
 ---
 
